@@ -1,0 +1,31 @@
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+}
+
+.theme-toggle:hover {
+  background-color: var(--bg-hover);
+  transform: rotate(15deg);
+}
+
+.toggle-icon {
+  font-size: 1.2rem;
+}
+
+.toggle-icon.sun {
+  color: #fbbf24;
+}
+
+.toggle-icon.moon {
+  color: #60a5fa;
+}
