@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 2rem;
+  padding: 4rem 1rem;
   min-height: 100vh;
   background-color: var(--bg-primary);
   margin-top:55px;
@@ -39,7 +39,7 @@
   margin-right: auto;
 }
 
-.hero-buttons {
+.hero-button {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -111,16 +111,18 @@
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.5rem;
+    word-break: break-word;
   }
 
   .hero-description {
     font-size: 1rem;
   }
 
-  .hero-buttons {
+  .hero-button {
     flex-direction: column;
     width: 100%;
     max-width: 300px;
+    margin: 0 auto;
   }
 
   .btn-primary,

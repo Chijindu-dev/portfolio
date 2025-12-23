@@ -19,7 +19,8 @@
   flex: 0 0 auto;
 }
 .hero-image-frame {
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   height: 350px;
   border: 3px solid var(--text-primary);
   border-radius: 20px;
@@ -87,8 +88,13 @@
     /* Remove padding if it interferes, but margin overrides might be needed */
   }
   .hero-buttons {
-    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    margin-top: 30px; /* retain top margin */
+    max-width: 300px;
+    margin: 30px auto 0;
+  }
+  
+  .hero-btn {
+    width: 100%;
   }
 }

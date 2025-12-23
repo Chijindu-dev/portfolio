@@ -39,7 +39,7 @@ const Hero = () => {
           I specialize in researching and analyzing your brand and provide you a beautiful and effective
           website for making a digital standing among your competitors
         </motion.p>
-        <motion.div variants={itemVariants} className="hero-buttons">
+        <motion.div variants={itemVariants} className="hero-button">
           <a href="#contact" className="btn-primary">Get yours now</a>
           <a href="#projects" className="btn-secondary">See my works</a>
         </motion.div>

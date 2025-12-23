@@ -148,6 +148,7 @@
   .footer-content {
     grid-template-columns: 1fr;
     gap: 50px;
+    padding: 40px 20px;
   }
   
   .footer-about,

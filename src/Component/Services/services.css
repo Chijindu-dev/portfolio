@@ -109,3 +109,13 @@
     gap: 40px;
   }
 }
+
+@media (max-width: 480px) {
+  .services-section {
+    padding: 40px 20px;
+  }
+
+  .services-intro h1 {
+    font-size: 32px;
+  }
+}

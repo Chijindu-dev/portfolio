@@ -99,3 +99,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 40px 20px;
+  }
+
+  .contact-info h2 {
+    font-size: 32px;
+  }
+}

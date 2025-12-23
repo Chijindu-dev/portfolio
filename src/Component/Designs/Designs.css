@@ -135,3 +135,13 @@
     height: 300px;
   }
 }
+
+@media (max-width: 480px) {
+  .designs-section {
+    padding: 40px 20px;
+  }
+
+  .designs-header h2 {
+    font-size: 28px;
+  }
+}
