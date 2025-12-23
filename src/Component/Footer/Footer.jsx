@@ -6,6 +6,7 @@ import { BsGithub, BsTwitterX } from "react-icons/bs";
 import { CiLinkedin } from "react-icons/ci";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { BiX } from "react-icons/bi";
+import resume from "../../assets/ASAPH ENYINNAYA CV.pdf";
 
 const Footer = () => {
   return (
@@ -19,23 +20,23 @@ const Footer = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="footer-about">
-            <h3>CHIJINDU ENYINNAYA </h3>
+            <h3>ASAPH ENYINNAYA </h3>
             <p>
               I’m a web developer with over 3 years of experience specializing in front-end development and UI/UX design. I craft user-centric, visually engaging websites that not only look great but also drive results, helping businesses grow and thrive in the digital world.
             </p>
-            <button className="footer-btn">My Resume</button>
+            <a href={resume} download="Asaph_Enyinnaya_CV.docx" className="footer-btn">My Resume</a>
             <div className="footer-social">
               <div className="footer-social-icon">
-              <a href="https://facebook.com/asaph.enyinnaya.7"><FaFacebook size={30}/></a>
+                <a href="https://facebook.com/asaph.enyinnaya.7"><FaFacebook size={30} /></a>
               </div>
               <div className="footer-social-icon">
-                <a href="https://github.com/Chijindu-dev"><BsGithub size={30}/></a>
+                <a href="https://github.com/Chijindu-dev"><BsGithub size={30} /></a>
               </div>
               <div className="footer-social-icon">
-                <a href=""><LiaLinkedinIn size={30}/></a>
+                <a href=""><LiaLinkedinIn size={30} /></a>
               </div>
               <div className="footer-social-icon">
-                <a href="https://x.com/TechsRegion"><BsTwitterX size={25}/></a>
+                <a href="https://x.com/TechsRegion"><BsTwitterX size={25} /></a>
               </div>
             </div>
           </div>
