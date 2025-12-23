@@ -1,7 +1,7 @@
 // src/components/Services.js
 import React from "react";
 import { FaLaptopCode, FaServer, FaPencilRuler, FaCogs } from "react-icons/fa"; // Importing React Icons
-import './Services.css'; // Importing CSS for styling
+import './services.css'; // Importing CSS for styling
 import { motion } from "framer-motion";
 
 const Services = () => {
